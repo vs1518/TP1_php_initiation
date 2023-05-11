@@ -1,0 +1,16 @@
+@import "_variables.scss";
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: url(../images/webb.png);
+    pre {
+        margin-bottom: 1rem;
+        white-space: normal;
+        padding: 1rem;
+        code{
+            word-break: initial;
+            display: inline-block;
+            white-space: normal;
+        }
+    }
+}
